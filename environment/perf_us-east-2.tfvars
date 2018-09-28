@@ -1,6 +1,6 @@
 region = "us-east-2"
 
-environment = "stg"
+environment = "perf"
 
 # Automation User Role Arn
 assume_role_arn = "arn:aws:iam::<account_id>:role/AutomationUserRole"
