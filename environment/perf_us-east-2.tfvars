@@ -13,3 +13,12 @@ corp_tools_account_s3_key = "corp-tools/terraform.tfstate"
 corp_tools_platform_s3_key = "corp-tools-platform/terraform.tfstate"
 
 account_s3_key = "<account>-<environment>/terraform.tfstate"
+
+# Tagging
+scope_id = ""
+
+application_id = "ODY"
+
+contact_name = "Collin Bridges"
+
+contact_email = "Collin.Bridges@edgenuity.com"
