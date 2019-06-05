@@ -9,5 +9,5 @@ provider "aws" {
 terraform {
   backend "s3" {}
 
-  required_version = "0.11.8"
+  required_version = "~> 0.11.8"
 }
