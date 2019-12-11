@@ -1,24 +1,31 @@
-region = "us-east-2"
+region                      = "us-east-1"
 
-environment = "dev"
 
-# Automation User Role Arn
-assume_role_arn = "arn:aws:iam::<account_id>:role/AutomationUserRole"
+corp_tools_account_s3 = "terraform-user"
+instance_count=1
+environment="dev"
 
-# Remote States
-corp_tools_s3 = "edgenuity-tf-state"
+corp_tools_account_s3_key   = "corp-tools/terraform.tfstate"
 
-corp_tools_account_s3_key = "corp-tools/terraform.tfstate"
+corp_tools_platform_s3_key  = "corp-tools-platform/terraform.tfstate"
 
-corp_tools_platform_s3_key = "corp-tools-platform/terraform.tfstate"
+account_s3_key              = "corp-tools/terraform.tfstate"
 
-account_s3_key = "<account>-<environment>/terraform.tfstate"
 
 # Tagging
-scope_id = "DV"
 
-application_id = ""
+scope_id                    = "ID"
 
-contact_name = "Collin Bridges"
+application_id              = "LMS"
 
-contact_email = "Collin.Bridges@edgenuity.com"
+key_pair_name               =  "demo-key"
+
+contact_email               = "cloudengineering@edgenuity.com"
+
+contact_name = "cloudengineering"
+
+#ubuntu_ami_id = "ami-04b9e92b5572fa0d1"
+
+ami_id = "ami-0c322300a1dd5dc79"
+
+#windows_ami_id="ami-03fbd9bcb97e9cabb"
